@@ -6,7 +6,7 @@ const typeDefs = gql`
     username: String
     email: String
     password: String
-    books: [Book]!
+    savedBooks: [Book]!
   }
 
   type Book {
